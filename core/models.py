@@ -17,6 +17,12 @@ class Produto(models.Model):
     def __str__(self):
         return self.descricao
     
+# Crie um modelo para usuario para salvar email
+# Registrar esse modelo no admin da app
+# Este modelo deve mostra o email cadastrado no admin usando def __str__
+
+# Tenta criar uma view para listar esses emails
+     
 
 class Teste(models.Model):
     teste = models.CharField(max_length=100)
